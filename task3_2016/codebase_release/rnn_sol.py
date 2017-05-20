@@ -51,7 +51,7 @@ class RNN_Model():
             node_tensors = node_tensors[tree.root]
         else:
             node_tensors = [tensor for node, tensor in node_tensors.iteritems() if node.label!=2]
-            node_tensors = tf.concat(node_tensors, 0)
+            node_tensors = tf.concat(0, node_tensors)
         return self.add_projections(node_tensors)
 
     def add_model_vars(self):
@@ -113,7 +113,7 @@ class RNN_Model():
             node_tensors.update(self.add_model(node.left))
             node_tensors.update(self.add_model(node.right))
             ### YOUR CODE HERE
-            child_tensor = tf.concat([node_tensors[node.left], node_tensors[node.right]], 1)
+            child_tensor = tf.concat(1, [node_tensors[node.left], node_tensors[node.right]])
             curr_node_tensor = tf.nn.relu(tf.matmul(child_tensor, W1) + b1)
             ### END YOUR CODE
         node_tensors[node] = curr_node_tensor
@@ -158,7 +158,7 @@ class RNN_Model():
         l2loss = tf.nn.l2_loss(W1) + tf.nn.l2_loss(U)
 
         cross_entropy = tf.reduce_sum(
-            tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels))
+            tf.nn.sparse_softmax_cross_entropy_with_logits(logits, labels))
         loss = cross_entropy + self.config.l2 * l2loss
         # END YOUR CODE
         return loss

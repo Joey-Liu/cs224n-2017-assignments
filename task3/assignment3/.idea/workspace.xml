@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c429500-2964-4567-9da6-65350d68b43a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights" afterPath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights.temp" afterPath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights.temp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights.temp.meta" afterPath="$PROJECT_DIR$/../../task3_2016/codebase_release/weights/rnn_embed=35_l2=0.020000_lr=0.010000.weights.temp.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../task3_2016/codebase_release/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../task3_2016/codebase_release/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tensorflow/MNIST_E.py" afterPath="$PROJECT_DIR$/../../tensorflow/MNIST_E.py" />
     </list>
     <ignored path="assignment3.iws" />
@@ -46,38 +50,8 @@
       <file leaf-file-name="q2_rnn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/q2_rnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q3_gru_cell.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q3_gru_cell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="67" column="59" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q2_rnn_github.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q2_rnn_github.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="281" column="44" selection-start-line="281" selection-start-column="44" selection-end-line="281" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="q2_rnn_cell.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q2_rnn_cell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="3421">
+              <caret line="288" column="40" selection-start-line="288" selection-start-column="32" selection-end-line="288" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -745,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../tensorflow/MNIST_E.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -831,10 +798,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/q2_rnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+        <state relative-caret-position="3421">
+          <caret line="288" column="40" selection-start-line="288" selection-start-column="32" selection-end-line="288" selection-end-column="40" />
           <folding />
         </state>
       </provider>

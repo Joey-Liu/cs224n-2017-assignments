@@ -60,7 +60,7 @@ def cross_entropy_loss(y, yhat):
     ### YOUR CODE HERE
     y = tf.to_float(y)
     out = -y * tf.log(yhat)
-    out = tf.reduce_sum(out)
+    out = tf.reshape(tf.reduce_sum(out), shape=(1, ))
     ### END YOUR CODE
 
     return out

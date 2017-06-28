@@ -58,6 +58,7 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset=None):
     delta = prob.copy()
     delta[target] -= 1
     gradPred = outputVectors.transpose().dot(delta)
+    # gradPred = delta.dot(outputVectors.transpose())
     assert gradPred.shape == predicted.shape
     
     grad = np.outer(delta, predicted)
